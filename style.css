@@ -1,0 +1,256 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container.navigation{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: solid #a652fe;
+}
+
+.navigation-items{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-items ul{
+    font-family: sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#link {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+div.practice-items{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+div .html-text-1 {
+    font-family: sans-serif;
+    width: 150px;
+    position: absolute;
+    left: 25px;
+    top: 50px;
+    color: #a652fe;
+}
+
+p{
+    margin: 0;
+}
+
+.practice-items-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+    height: 320px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.purple-background {
+    border-radius: 20px;
+    border: solid black 10px;
+    height: 298px;
+    background-size: 400% 400%;
+    margin: 10px;
+}
+
+img.headshot-prac{
+    border-radius: 20px;
+}
+
+.practice-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: fit-content;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 70px;
+    padding: 0px 0px 50px 0px;
+    margin: 0;
+}
+
+.heading-p1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.name-practice {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.name {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+div .html-lang-text-2 {
+    font-family: sans-serif;
+    position: absolute;
+    left: 25px;
+    top: 610px;
+    color: #a652fe;
+}
+
+.color-1{
+    background-color: #a652fe10;
+}
+
+section{
+    display: block;
+}
+
+div.container{
+    margin: 100px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #a652fe;
+    margin: 0;
+}
+
+.skills-info{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.another-image{
+    border-radius: 10px;
+    margin: 10px;
+    width: 100px;
+}
+
+.self-image{
+    border-radius: 50%;
+}
+
+.container.projects{
+    height: auto;
+}
+
+.projects{
+    display: block;
+}
+
+.project-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    gap: 1rem;
+    margin: 30px;
+}
+
+.project {
+    display: grid;
+    grid-template-rows: 50px auto 100px;
+    border: solid #a652fe80 5px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.project img{
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.contact-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 600px;
+    margin: 30px;
+}
+
+.footer {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.color-2{
+    background-color: #a652fe80;
+}
+
+.link-button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid #a652fe;
+}
+
+@media only screen and (min-width: 991px){
+    .about-me-grid {
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .purple-block-2 p {
+        width: 500px;
+        height: 300px;
+        text-align: left;
+    }
+    
+    .about-me-grid p {
+        margin: 0px;
+        background-color: white;
+        border: solid #a652fe80 5px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    
+    .all-about-images{
+        display: grid;
+        width: 500px;
+        margin-left: 20px;
+        grid-template-columns: 200px 200px;
+        gap: 10px;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+.about-images{
+    border-radius: 10px;
+}
+
+#page-footer{
+    margin: 0;
+    padding: 0;
+}
